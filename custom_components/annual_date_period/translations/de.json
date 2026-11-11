@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Jährlicher Datumsbereich-Helfer",
+        "description": "Konfiguriere einen jährlich wiederkehrenden Datumsbereich (z. B. Heizperiode vom 15. Oktober bis 15. April).",
+        "data": {
+          "name": "Name",
+          "start_month": "Startmonat",
+          "start_day": "Starttag",
+          "end_month": "Endmonat",
+          "end_day": "Endtag",
+          "icon": "Symbol (Icon)"
+        }
+      }
+    },
+    "error": {
+      "invalid_start_date": "Der angegebene Starttag existiert im gewählten Startmonat nicht.",
+      "invalid_end_date": "Der angegebene Endtag existiert im gewählten Endmonat nicht."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Datumsbereich anpassen",
+        "description": "Passe die wiederkehrenden Start- und Enddaten oder das Symbol an.",
+        "data": {
+          "start_month": "Startmonat",
+          "start_day": "Starttag",
+          "end_month": "Endmonat",
+          "end_day": "Endtag",
+          "icon": "Symbol (Icon)"
+        }
+      }
+    },
+    "error": {
+      "invalid_start_date": "Der angegebene Starttag existiert im gewählten Startmonat nicht.",
+      "invalid_end_date": "Der angegebene Endtag existiert im gewählten Endmonat nicht."
+    }
+  }
+}

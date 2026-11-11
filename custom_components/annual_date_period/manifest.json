@@ -1,0 +1,11 @@
+{
+  "domain": "annual_date_period",
+  "name": "Annual Date Period",
+  "codeowners": ["@adromir"],
+  "config_flow": true,
+  "documentation": "https://github.com/adromir/ha-annual-date-period",
+  "issue_tracker": "https://github.com/adromir/ha-annual-date-period/issues",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "version": "1.0.0"
+}

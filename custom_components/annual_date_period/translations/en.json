@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Annual Date Period Helper",
+        "description": "Configure an annually recurring date range (e.g. heating season from Oct 15 to Apr 15).",
+        "data": {
+          "name": "Name",
+          "start_month": "Start Month",
+          "start_day": "Start Day",
+          "end_month": "End Month",
+          "end_day": "End Day",
+          "icon": "Icon"
+        }
+      }
+    },
+    "error": {
+      "invalid_start_date": "The selected start day does not exist in the start month.",
+      "invalid_end_date": "The selected end day does not exist in the end month."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Annual Date Period",
+        "description": "Adjust the recurring start and end dates or icon.",
+        "data": {
+          "start_month": "Start Month",
+          "start_day": "Start Day",
+          "end_month": "End Month",
+          "end_day": "End Day",
+          "icon": "Icon"
+        }
+      }
+    },
+    "error": {
+      "invalid_start_date": "The selected start day does not exist in the start month.",
+      "invalid_end_date": "The selected end day does not exist in the end month."
+    }
+  }
+}

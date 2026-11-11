@@ -1,0 +1,18 @@
+# Project Memory
+MEMORY.md
+PROJECT_CONTEXT.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
