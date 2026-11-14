@@ -1,6 +1,7 @@
 # 📅 Annual Date Period Helper for Home Assistant
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=adromir&repository=ha-annual-date-period&category=integration)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/adromir)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/default)
 [![GitHub Release](https://img.shields.io/github/v/release/adromir/ha-annual-date-period?style=for-the-badge&color=blue)](https://github.com/adromir/ha-annual-date-period/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
@@ -27,7 +28,7 @@ Exposes clean `binary_sensor` entities that turn `on` when today's date falls wi
   - `days_until_start`: Days until next period starts
   - `next_start`: ISO timestamp of next start date
   - `next_end`: ISO timestamp of next end date
-- 🌐 **Fully Bilingual**: German and English UI strings and error messages.
+- 🌐 **Multilingual Support**: Fully localized in English, German (`de`), and Indonesian (`id`).
 
 ---
 
