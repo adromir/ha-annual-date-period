@@ -1,0 +1,48 @@
+{
+  "entity": {
+    "binary_sensor": {
+      "annual_date_period": {
+        "name": "Periode Tanggal Tahunan"
+      }
+    }
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pembantu Periode Tanggal Tahunan",
+        "description": "Konfigurasikan rentang tanggal yang berulang setiap tahun (mis. musim pemanasan dari 15 Okt hingga 15 Apr).",
+        "data": {
+          "name": "Nama",
+          "start_month": "Bulan Mulai",
+          "start_day": "Hari Mulai",
+          "end_month": "Bulan Selesai",
+          "end_day": "Hari Selesai",
+          "icon": "Ikon"
+        }
+      }
+    },
+    "error": {
+      "invalid_start_date": "Hari mulai yang dipilih tidak ada dalam bulan mulai.",
+      "invalid_end_date": "Hari selesai yang dipilih tidak ada dalam bulan selesai."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Konfigurasi Periode Tanggal Tahunan",
+        "description": "Sesuaikan tanggal mulai dan selesai berulang atau ikon.",
+        "data": {
+          "start_month": "Bulan Mulai",
+          "start_day": "Hari Mulai",
+          "end_month": "Bulan Selesai",
+          "end_day": "Hari Selesai",
+          "icon": "Ikon"
+        }
+      }
+    },
+    "error": {
+      "invalid_start_date": "Hari mulai yang dipilih tidak ada dalam bulan mulai.",
+      "invalid_end_date": "Hari selesai yang dipilih tidak ada dalam bulan selesai."
+    }
+  }
+}

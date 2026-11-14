@@ -1,4 +1,11 @@
 {
+  "entity": {
+    "binary_sensor": {
+      "annual_date_period": {
+        "name": "Annual Date Period"
+      }
+    }
+  },
   "config": {
     "step": {
       "user": {

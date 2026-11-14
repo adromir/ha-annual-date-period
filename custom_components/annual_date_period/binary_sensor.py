@@ -54,13 +54,18 @@ class AnnualDatePeriodBinarySensor(BinarySensorEntity):
     """Representation of an Annual Date Period binary sensor."""
 
     _attr_has_entity_name = True
+    _attr_translation_key = "annual_date_period"
     _attr_should_poll = False
 
     def __init__(self, entry: ConfigEntry) -> None:
         """Initialize the sensor."""
         self.entry = entry
         self._attr_unique_id = f"annual_date_period_{entry.entry_id}"
-        self._attr_name = entry.data.get(CONF_NAME, "Annual Date Period")
+        custom_name = entry.data.get(CONF_NAME)
+        if custom_name and custom_name not in ("Heizperiode", "Annual Date Period", "Periode Tanggal Tahunan"):
+            self._attr_name = custom_name
+        else:
+            self._attr_name = None
         self._is_on = False
         self._attrs: dict[str, Any] = {}
 

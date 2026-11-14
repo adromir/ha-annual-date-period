@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#f8fafc" stroke="#f8fafc" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Calendar Body Outline -->
+    <rect x="96" y="112" width="320" height="300" rx="28" fill="none" stroke-width="22" />
+    <!-- Calendar Binder Rings -->
+    <line x1="168" y1="80" x2="168" y2="136" stroke-width="22" />
+    <line x1="344" y1="80" x2="344" y2="136" stroke-width="22" />
+    <!-- Header Separation Bar -->
+    <line x1="96" y1="188" x2="416" y2="188" stroke-width="18" />
+    <!-- Circular Annual Sync / Recurrence Arrow -->
+    <path d="M 210 260 A 62 62 0 1 1 200 330" fill="none" stroke-width="20" />
+    <!-- Arrow Head -->
+    <polyline points="186,244 220,256 198,284" fill="#f8fafc" stroke="none" />
+  </g>
+</svg>
