@@ -13,6 +13,17 @@ Exposes clean `binary_sensor` entities that turn `on` when today's date falls wi
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/adromir/ha-annual-date-period/main/Screenshots/annual-date-period-config.png" alt="Annual Date Period Helper Configuration Dialog" width="800">
+</p>
+<p align="center">
+  <em>Configuration dialog: define recurring annual date windows (e.g. heating season from Oct 15 to Apr 15) with custom start/end months, days, and icons directly in the Home Assistant UI.</em>
+</p>
+
+---
+
 ## ✨ Key Features & Advantages
 
 - 📆 **Year-Independent Recurring Windows**: Define periods once (e.g., October 15th to April 15th) and let them recur every year without manual yearly adjustments or fragile YAML templates.
