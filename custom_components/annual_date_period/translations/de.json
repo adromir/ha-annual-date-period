@@ -1,4 +1,5 @@
 {
+  "title": "Jährlicher Datumsbereich-Helfer",
   "entity": {
     "binary_sensor": {
       "annual_date_period": {
